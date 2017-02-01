@@ -1,0 +1,14 @@
+/**
+ * editor output
+ */
+.editor-wrapper .preview {
+  position: relative;
+  height: 100%;
+  padding: 1em;
+  background-color: #fff;
+}
+.editor-wrapper .preview .output {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}

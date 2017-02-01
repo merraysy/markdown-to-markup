@@ -1,0 +1,7 @@
+/**
+ * form control
+ */
+.form-control.invalid {
+  border-color: #f00;
+  color: #f00;
+}

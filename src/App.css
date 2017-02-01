@@ -1,0 +1,9 @@
+/**
+ * App
+ */
+.btn .fa {
+  margin-right: .5em;
+}
+.btn .text {
+  text-transform: capitalize;
+}

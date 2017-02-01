@@ -1,0 +1,16 @@
+/**
+ * site-header
+ */
+.site-header {
+  position: relative;
+}
+.site-header .navbar {
+  margin-bottom: 0;
+}
+.site-header .spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}

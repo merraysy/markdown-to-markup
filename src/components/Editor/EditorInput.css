@@ -1,0 +1,41 @@
+/**
+ * editor
+ */
+.editor-wrapper .editor {
+  position: relative;
+  height: 100%;
+  padding: 1em;
+  background-color: #141414;
+}
+.editor-wrapper .editor .active-state {
+  height: 100%;
+}
+.editor-wrapper .editor .inactive-state {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.editor-wrapper .editor .input {
+  max-width: 960px;
+  padding: 0;
+}
+/* options */
+.editor-wrapper .editor .options {
+  position: absolute;
+  padding: .5em;
+  right: 0;
+  top: 0;
+  opacity: .5;
+}
+.editor-wrapper .editor .options li {
+  display: inline-block;
+  margin-right: .25em;
+}
+.editor-wrapper .editor .options li:last-of-type {
+  margin-right: 0;
+}
+.editor-wrapper .editor .options:hover {
+  opacity: 1;
+}

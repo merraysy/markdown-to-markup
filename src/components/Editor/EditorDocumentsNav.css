@@ -1,0 +1,88 @@
+/**
+ * nav
+ */
+.editor-wrapper .documents-nav {
+  padding: 0;
+  height: 100%;
+  padding-bottom: 5em;
+  overflow-y: auto;
+}
+.editor-wrapper .documents-nav .message {
+  padding: 1em;
+  margin-bottom: 0;
+}
+.editor-wrapper .documents-nav .nav > li.new-document {
+  padding: 1em;
+}
+.editor-wrapper .documents-nav .nav > li > a {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.editor-wrapper .documents-nav .nav > li.active > a {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-left: .5em solid #F77E40;
+}
+.editor-wrapper .documents-nav .nav > li.active > a:hover .document-actions {
+  display: inline-block;
+}
+.editor-wrapper .documents-nav .nav > li > a .badge {
+  margin-left: .5em;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions {
+  display: none;
+  position: absolute;
+  padding: 0;
+  right: .5em;
+  bottom: .25em;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions .text-toggle-private,
+.editor-wrapper .documents-nav .nav > li > a .document-actions .text-download {
+  color: #CCC;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions .text-toggle-private:hover,
+.editor-wrapper .documents-nav .nav > li > a .document-actions .text-download:hover {
+  color: #fff;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions li {
+  display: inline-block;
+  margin-right: .5em;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions li:last-child {
+  margin-right: 0;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions li > a {
+  position: relative;
+  display: block;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions li > a:hover .mm-tooltip {
+  display: block;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions li > a .mm-tooltip {
+  position: absolute;
+  top: -120%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: .25rem .5rem;
+  font-size: .8em;
+  text-transform: capitalize;
+  white-space: nowrap;
+  background-color: #333;
+  color: #fff;
+  display: none;
+}
+.editor-wrapper .documents-nav .nav > li > a .document-actions li > a .mm-tooltip::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 6px 6px 0;
+  border-color: transparent;
+  border-top-color: #333;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -6px;
+  width: 0;
+  height: 0;
+}
